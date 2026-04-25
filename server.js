@@ -46,6 +46,14 @@ app.use((req, _res, next) => {
   next();
 });
 
+
+
+app.get("/",(req,res)=>{
+ res.send("Ornaq Backend Running");
+});
+
+
+
 app.get("/health", (_req, res) => res.json({ ok: true }));
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);

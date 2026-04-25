@@ -1,0 +1,116 @@
+
+> ornac-backend@1.0.0 dev
+> nodemon server.js
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+MongoDB connected
+Server listening on 5000
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+MongoDB connected
+Server listening on 5000
+[0mGET /api/products/samaira-rajnigandha-wedding [32m200[0m 209.852 ms - 1764[0m
+[0mGET /api/products/samaira-rajnigandha-wedding [32m200[0m 91.098 ms - 1764[0m
+[0mGET /api/reviews/69ec667f4548ab4729b7220f [32m200[0m 73.470 ms - 49[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b7220f [32m200[0m 202.140 ms - 24475[0m
+[0mGET /api/reviews/69ec667f4548ab4729b7220f [36m304[0m 42.370 ms - -[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b7220f [32m200[0m 129.346 ms - 24475[0m
+[0mGET /api/products/filters/meta [36m304[0m 202.013 ms - -[0m
+[0mGET /api/auth/profile [36m304[0m 29.996 ms - -[0m
+[0mGET /api/products/filters/meta [36m304[0m 22.468 ms - -[0m
+[0mGET /api/auth/profile [36m304[0m 19.798 ms - -[0m
+[0mGET /api/products?sort=newest [32m200[0m 105.265 ms - 97501[0m
+[0mGET /api/products?sort=newest [36m304[0m 62.933 ms - -[0m
+[0mGET /api/wishlist [36m304[0m 59.801 ms - -[0m
+[0mGET /api/cart [32m200[0m 83.800 ms - 77[0m
+[0mPOST /api/auth/google [32m200[0m 118.107 ms - 398[0m
+WhatsApp preview: {"preview":true,"channel":"whatsapp","payload":{"to":"9356449725","template":"login_otp","body":"Your Ornac login OTP is 123216. It will expire in 10 minutes.","meta":{"purpose":"login_otp"}}}
+Email preview: From: ornac@local.test
+To: mobile-9356449725@ornac.local
+Subject: Your Ornac OTP
+Message-ID: <a8ce32f3-ec66-9706-0da6-e9f6bff243ad@local.test>
+Date: Sat, 25 Apr 2026 07:07:32 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_NmP-a44f52f50e75f9f7-Part_1"
+
+----_NmP-a44f52f50e75f9f7-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Your Ornac login OTP is 123216. It will expire in 10 minutes.
+----_NmP-a44f52f50e75f9f7-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<p>Your Ornac login OTP is 123216. It will expire in 10 minutes.</p>
+----_NmP-a44f52f50e75f9f7-Part_1--
+
+[0mPOST /api/auth/request-otp [32m200[0m 100.346 ms - 59[0m
+[0mGET /api/products/samaira-rajnigandha-wedding [32m200[0m 56.439 ms - 1764[0m
+[0mGET /api/products/samaira-rajnigandha-wedding [32m200[0m 43.150 ms - 1764[0m
+[0mGET /api/reviews/69ec667f4548ab4729b7220f [36m304[0m 34.622 ms - -[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b7220f [32m200[0m 76.685 ms - 24475[0m
+[0mGET /api/reviews/69ec667f4548ab4729b7220f [36m304[0m 37.778 ms - -[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b7220f [32m200[0m 96.703 ms - 24475[0m
+[0mGET /api/products/samaira-rajnigandha-wedding [32m200[0m 65.596 ms - 1764[0m
+[0mGET /api/products/samaira-rajnigandha-wedding [32m200[0m 50.862 ms - 1764[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b7220f [32m200[0m 96.368 ms - 24475[0m
+[0mGET /api/reviews/69ec667f4548ab4729b7220f [36m304[0m 35.261 ms - -[0m
+[0mGET /api/reviews/69ec667f4548ab4729b7220f [36m304[0m 32.823 ms - -[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b7220f [36m304[0m 127.150 ms - -[0m
+[0mGET /api/products/samaira-rajnigandha-wedding [32m200[0m 167.397 ms - 1764[0m
+[0mGET /api/products/samaira-rajnigandha-wedding [32m200[0m 56.676 ms - 1764[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b7220f [32m200[0m 134.558 ms - 24475[0m
+[0mGET /api/reviews/69ec667f4548ab4729b7220f [36m304[0m 38.849 ms - -[0m
+[0mGET /api/reviews/69ec667f4548ab4729b7220f [36m304[0m 35.191 ms - -[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b7220f [36m304[0m 72.280 ms - -[0m
+[0mGET /api/products/filters/meta [36m304[0m 42.596 ms - -[0m
+[0mGET /api/auth/profile [36m304[0m 26.651 ms - -[0m
+[0mGET /api/products/filters/meta [36m304[0m 21.114 ms - -[0m
+[0mGET /api/auth/profile [36m304[0m 21.758 ms - -[0m
+[0mGET /api/products?sort=newest [32m200[0m 96.317 ms - 97501[0m
+[0mGET /api/products?sort=newest [36m304[0m 70.271 ms - -[0m
+[0mGET /api/cart [36m304[0m 37.439 ms - -[0m
+[0mGET /api/wishlist [36m304[0m 34.569 ms - -[0m
+[0mGET /api/products/gulnaar-morbagh-paithani [32m200[0m 51.489 ms - 1779[0m
+[0mGET /api/products/gulnaar-morbagh-paithani [32m200[0m 49.173 ms - 1779[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b721e4 [32m200[0m 83.987 ms - 34183[0m
+[0mGET /api/products/discovery/69ec667f4548ab4729b721e4 [32m200[0m 77.149 ms - 34183[0m
+[0mGET /api/reviews/69ec667f4548ab4729b721e4 [36m304[0m 34.281 ms - -[0m
+[0mGET /api/reviews/69ec667f4548ab4729b721e4 [36m304[0m 31.541 ms - -[0m
+[0mPOST /api/cart [32m200[0m 133.902 ms - 1919[0m
+[0mGET /api/products/69ec667f4548ab4729b721e4/serviceability/414001 [32m200[0m 51.939 ms - 62[0m
+WhatsApp preview: {"preview":true,"channel":"whatsapp","payload":{"to":"7249354403","template":"order_placed","body":"Your order ORNAC-C91A3948 has been placed successfully. Total amount: Rs. 6290.","meta":{"orderId":"69ec690025e86fb5c91a3948","status":"CONFIRMED"}}}
+Email preview: From: ornac@local.test
+To: apurvagawade74@gmail.com
+Subject: Your Ornac order has been placed
+Message-ID: <bcf7b876-506f-79c7-c512-4e3583a32a69@local.test>
+Date: Sat, 25 Apr 2026 07:10:56 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_NmP-72254cfb27757f87-Part_1"
+
+----_NmP-72254cfb27757f87-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Your order ORNAC-C91A3948 has been placed successfully. Total amount: Rs. =
+6290.
+----_NmP-72254cfb27757f87-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Your order ORNAC-C91A3948 has been placed successfully. Total amount: Rs=
+. 6290.</p>
+----_NmP-72254cfb27757f87-Part_1--
+
+[0mPOST /api/orders [32m201[0m 182.158 ms - 1370[0m
+[0mDELETE /api/cart [32m204[0m 39.599 ms - -[0m
+[0mGET /api/orders/69ec690025e86fb5c91a3948 [32m200[0m 123.946 ms - 1632[0m
+[0mGET /api/orders/69ec690025e86fb5c91a3948 [36m304[0m 45.118 ms - -[0m

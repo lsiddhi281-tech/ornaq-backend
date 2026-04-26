@@ -18,9 +18,16 @@ import wishlistRoutes from "./routes/wishlistRoutes.js";
 import adminRoutes from "./routes/adminRoutes.js";
 import reviewRoutes from "./routes/reviewRoutes.js";
 import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
+import path from "path";
+import { fileURLToPath } from "url";
+
 
 const app = express();
 const server = http.createServer(app);
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const origins = process.env.CLIENT_URL ? process.env.CLIENT_URL.split(",") : ["http://localhost:5173"];
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -41,6 +48,10 @@ app.use(
   })
 );
 app.use(express.json({ limit: "2mb" }));
+
+// serve uploaded images
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+
 app.use((req, _res, next) => {
   req.io = io;
   next();
@@ -49,14 +60,8 @@ app.use((req, _res, next) => {
 
 
 
-import path from "path";
-import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
-// serve uploaded images
-app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 app.get("/",(req,res)=>{
  res.send("Ornaq Backend Running");
